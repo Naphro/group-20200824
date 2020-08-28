@@ -256,7 +256,7 @@ a {
     opacity: 0;
     transform: scale(0.8);
 
-    background-image: url('/images/mv_titleBg@2x.png');
+    background-image: url('images/mv_titleBg@2x.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -271,7 +271,7 @@ a {
       width: 100%;
       height: 100%;
       transform: translate(-50%, -50%) scale(0.95) rotate(20deg);
-      background-image: url('/images/mv_ribbon@2x.png');
+      background-image: url('images/mv_ribbon@2x.png');
       background-repeat: no-repeat;
       background-size: cover;
 
@@ -359,7 +359,7 @@ a {
     > div {
       width: 100%;
       height: 100%;
-      background-image: url('/images/mv_whale@2x.png');
+      background-image: url('images/mv_whale@2x.png');
       background-repeat: no-repeat;
       background-size: contain;
     }
@@ -385,7 +385,7 @@ a {
     top: 25%;
     width: 100%;
     height: 100%;
-    background-image: url('/images/mv_wave_1.png');
+    background-image: url('images/mv_wave_1.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -400,7 +400,7 @@ a {
     top: 5%;
     width: 100%;
     height: 100%;
-    background-image: url('/images/mv_wave_2.png');
+    background-image: url('images/mv_wave_2.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -425,7 +425,7 @@ a {
       bottom: 0;
       width: 100%;
       height: 6.25vw;
-      background-image: url('/images/mv_scrollIcon@2x.png');
+      background-image: url('images/mv_scrollIcon@2x.png');
       background-repeat: no-repeat;
       background-size: contain;
       background-position: bottom;
@@ -449,7 +449,7 @@ a {
     div {
       width: 100%;
       height: 100%;
-      background-image: url('/images/mv_scrollIcon@2x.png');
+      background-image: url('images/mv_scrollIcon@2x.png');
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -466,7 +466,7 @@ a {
     bottom: 7vh;
     width: 11vh;
     height: 11vh;
-    background-image: url('/images/mv_canIllust@2x.png');
+    background-image: url('images/mv_canIllust@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -489,7 +489,7 @@ a {
       display: inline-block;
       width: 12px;
       height: 12px;
-      background-image: url('/images/cmn_btnIcon@2x.png');
+      background-image: url('images/cmn_btnIcon@2x.png');
       background-repeat: no-repeat;
       background-size: contain;
       vertical-align: middle;
@@ -615,7 +615,7 @@ footer {
 }
 
 .whales {
-  background-image: url('/images/whale_bg@1x.png');
+  background-image: url('images/whale_bg@1x.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -634,7 +634,7 @@ footer {
       &__img {
         width: 72.14vw;
         height: 28.26vw;
-        background-image: url('/images/whale_01@2x.png');
+        background-image: url('images/whale_01@2x.png');
         background-repeat: no-repeat;
         background-size: contain;
       }
