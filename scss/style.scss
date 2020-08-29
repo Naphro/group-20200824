@@ -244,11 +244,12 @@ a {
     left: 50%;
     top: 50%;
     z-index: 500;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.8);
     width: 72vh;
     height: 72vh;
     border-radius: 50%;
     overflow: hidden;
+    transition: 1s cubic-bezier(0.68, 0, 0, 1);
   }
 
   &__inner-bg {
@@ -256,7 +257,6 @@ a {
     width: 100%;
     height: 100%;
     opacity: 0;
-    transform: scale(0.8);
 
     background-image: url('../images/mv_titleBg@2x.png');
     background-repeat: no-repeat;
@@ -294,7 +294,6 @@ a {
     background-color: #ffffff;
 
     opacity: 0;
-    transform: scale(0.8);
     transition: 1s cubic-bezier(0.68, 0, 0, 1);
   }
 
@@ -504,10 +503,13 @@ a {
       transition: 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) 2.7s;
     }
 
+    .summary__wrapper {
+      transform: translate(-50%, -50%) scale(1);
+    }
+
     .summary__inner-bg,
     .summary__lower-half {
       opacity: 1;
-      transform: scale(1);
     }
 
     .wave-1,
