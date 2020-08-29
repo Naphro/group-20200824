@@ -82,6 +82,8 @@ a {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  // min-height: 70vw;
+  overflow: hidden;
   background-color: #faf1dd;
 
   &__outer-bg,
